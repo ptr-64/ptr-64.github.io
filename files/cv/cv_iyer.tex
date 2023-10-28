@@ -1,0 +1,213 @@
+\documentclass[]{article}
+%\input{../../../../preamble.tex}
+\usepackage[english]{babel} % multilingual support
+\usepackage[utf8]{inputenc} % encoding
+%\usepackage{blindtext} % to insert blind text
+\usepackage[]{hyperref} 
+% Set the default font
+\usepackage{tgpagella}
+\usepackage[]{geometry}
+\geometry{a4paper,
+  left = 20mm,
+  %right =
+  %bottom =
+  top = 15mm
+}%
+\pagestyle{empty}
+\usepackage[]{sectsty}
+\sectionfont{%
+  \large %
+  \fontfamily{qag}\selectfont
+  \sectionrule{0pt}{0pt}{-5pt}{1pt}
+}%
+%%%%%%%%%%
+%%MACROS%%
+%%%%%%%%%%
+\newlength{\spacebox}
+\settowidth{\spacebox}{1234567890}
+%% vspace
+\newcommand{\sepspace}{\vspace*{1em}}
+\newcommand{\name}[1]{
+  \Huge
+  \begin{center}
+    \textbf{#1}
+  \end{center}
+  \par
+  \normalsize\normalfont
+}%
+
+%% subname
+\newcommand{\subname}[1]{
+  \small
+  \begin{center}
+    \textbf{#1}
+  \end{center}
+}
+
+%% motto
+\newcommand{\motto}[1]{
+  \large % font size
+% print motto centered and slanted
+  \begin{center}
+    \textsl{#1}
+  \end{center}
+  \par
+% back to normal size and font
+  \normalsize \normalfont
+}%
+
+%% personal information
+\newcommand{\info}[2]{
+% set specific indentation for personal information
+  \noindent\hangindent=2em\hangafter=0
+% create a box to align two pieces of text
+  \parbox{\spacebox}{%
+  \textsl{#1}} % slanted entry name
+  #2
+  \par
+}% entry value
+
+%% skill
+\newcommand{\skill}[2]{
+% set specific indentation for personal information
+  \noindent\hangindent=2em\hangafter=0
+% create a box to align two pieces of text
+  \parbox{3\spacebox}{% three times larger box
+  \textsc{#1}} % small caps entry name
+  #2 \par
+}% entry value
+
+%% language level
+\newcommand{\lan}[2]{
+    % set specific indentation for personal information
+    \noindent\hangindent=2em\hangafter=0
+    % create a box to align two pieces of text
+    \parbox{\spacebox}{%
+        \textbf{#1}} % bold font entry name
+     #2 \par
+}% entry value
+
+%% education entry
+\newcommand{\education}[4]{
+% name of the studies
+  \noindent  \textbf{#1}
+  % at the right the duration
+    \hfill 
+    \framebox{% duration inside a frame box
+    \parbox{6em}{%
+    \centering\textbf{#2}}} \par
+ % new paragraph with the school in italics
+     \noindent \textit{#3} \par
+     % description with no hanging and in smaller text
+     \vspace*{0.5em}
+     \noindent\hangindent=2em\hangafter=0 \small #4 
+%back to normal size
+  \normalsize 
+  \par
+}%
+
+%% work experience
+\newcommand{\work}[4]{
+% name of the work
+  \noindent  \textbf{#1}
+% at the right the duration
+  \hfill 
+\framebox{% duration inside a frame box
+  \parbox{6em}{%
+  \centering\textbf{#2}}} \par
+% new paragraph with the school in italics
+  \noindent \textit{#3} \par
+% description with no hanging and in smaller text
+  \vspace*{0.5em}
+  \noindent\hangindent=2em\hangafter=0 \small #4 
+%back to normal size
+  \normalsize 
+  \par
+}
+
+%% papers
+\newcommand{\paper}[3]{
+  \noindent \emph{#1} #2 \par
+  (#3)\\
+}
+
+\begin{document}
+%name
+\name{Peter Iyer}
+\subname{Shankar Sarthak}
+\vspace*{-10pt}
+\motto{A good quote proves nothing}
+
+%personal information
+\sepspace
+\info{Email}{\texttt{pir<at>uga<dot>edu}}
+\info{Phone}{(781)686-5860}
+\info{Address}{625 S Lumpkin St, Amos hall B450, Athens, GA, 30605, USA}
+
+% work
+\section*{Work experience}
+
+\work{Phd Candidate}{Fall 2019 - Present}{University of Georgia}
+\sepspace
+\work{Instructor of record}{Summer 2022 - Fall 2022}{University of Georgia}
+\sepspace
+\work{Market analyst}{August 2016 - August 2017}{Allsec Technologies}
+\sepspace
+\work{Library assistant}{May 2014 - April 2016}{Boston University Law Library}
+
+%education
+\section*{Education}
+\education{Phd in Economics}{2019-2024 (Expected)}{University of Georgia}{}
+\education{Master's Degree in Economics}{2017 - 2019}{Stony Brook University}{}
+\education{Bachelor's Degree in Math and Economics}{2013 - 2016}{Boston University}{}
+
+%papers
+\section*{Research}
+\paper{Effects of minimum wages on reservation wages}{}{JMP}
+\paper{Effects of UI generosity on unemployment}{}{Working paper}
+\paper{Human capital investment under idiosyncratic risk}{}{Working paper}
+\paper{Effects of university tuition hikes on human capital investment: Evidence from the UK}{}{Working paper}
+
+% technical skills
+\section*{Technical skills}
+\skill{Programming language}{\textsc{Python}, Julia, R, Matlab, Stata, Bash script, Vim script, \LaTeX, Markdown, \textsc{C++}, Git, SAS}
+\begin{itemize}
+  \item I have significant experience in using \textsc{SLURM}
+    \item I have extensively used Python, Stata, and R for data analysis, visualisation, and communication
+\end{itemize}
+
+% talk dirty to me in these languages
+\section*{Languages}
+\lan{English}{Native}
+\lan{Japanese}{}
+\lan{Hindi}{}
+
+\section*{References}
+\begin{minipage}[c]{0.34\textwidth}
+
+  Prof Ian Schmutte\\
+  University of Georgia\\
+  Amos Hall B420\\
+  Athens, GA 30602 \\
+  schmutte@uga.edu\\
+  \url{http://ianschmutte.org}
+\end{minipage}
+\begin{minipage}[c]{0.33\textwidth}
+
+  Prof Roozbeh Hosseini\\
+  University of Georgia\\
+  Amos Hall B457\\
+  Athens GA 30602\\
+  roozbeh@uga.edu\\
+  \url{https://www.roozbeh-hosseini.com/}
+\end{minipage}
+\begin{minipage}[c]{0.33\textwidth}
+
+  Prof Matt Knepper\\
+  Univeristy of Georgia\\
+  Amos Hall B418\\
+  Athens, GA 30602\\
+  mknepper@uga.edu\\
+  \url{https://sites.google.com/site/mattmknepper/home-1}
+\end{minipage}
+\end{document}
