@@ -4,9 +4,10 @@
 \usepackage[utf8]{inputenc} % encoding
 %\usepackage{blindtext} % to insert blind text
 \usepackage[]{hyperref} 
-\usepackage[]{emoji} 
+%\usepackage[]{emoji} 
 % Set the default font
-\usepackage{tgpagella}
+\usepackage[sfdefault]{noto}
+\usepackage[T1]{fontenc} 
 \usepackage[]{geometry}
 \geometry{a4paper,
   left = 20mm,
@@ -75,6 +76,7 @@
 % create a box to align two pieces of text
   \parbox{3\spacebox}{% three times larger box
   \textsc{#1}} % small caps entry name
+  \hfill
   #2 \par
 }% entry value
 
@@ -96,7 +98,7 @@
     \hfill 
     \framebox{% duration inside a frame box
     \parbox{6em}{%
-    \centering\textbf{#2}}} \par
+    \centering #2}} \par
  % new paragraph with the school in italics
      \noindent \textit{#3} \par
      % description with no hanging and in smaller text
@@ -115,7 +117,7 @@
   \hfill 
 \framebox{% duration inside a frame box
   \parbox{6em}{%
-  \centering\textbf{#2}}} \par
+  \centering#2}} \par
 % new paragraph with the school in italics
   \noindent \textit{#3} \par
 % description with no hanging and in smaller text
@@ -171,7 +173,8 @@
 
 % technical skills
 \section*{Technical skills}
-\skill{Programming language}{\textsc{Python}, Julia, R, Matlab, Stata, Bash script, Vim script, \LaTeX, Markdown, \textsc{C++}, Git, SAS}
+\skill{Programming languages}{\textsc{Python}, Julia, R, Matlab, Stata, Bash script, \LaTeX, \textsc{C++}, a bit of HTML}
+\skill{Other}{Vim script, Markdown, Git, SAS }
 \begin{itemize}
   \item I have significant experience in using \textsc{SLURM}
     \item I have extensively used Python, Stata, and R for data analysis, visualisation, and communication
@@ -179,33 +182,32 @@
 
 % talk dirty to me in these languages
 \section*{Languages}
-\lan{English}{Native} \emoji{flag-united-kingdom}\\
-\lan{Japanese}{Conversational} \emoji{flag-japan}\\
-\lan{Hindi}{Fluent} \emoji{flag-india}\\
-\lan{Tamil}{Conversational} \emoji{flag-india}\\
-
+\lan{English}{Native} %\emoji{flag-united-kingdom}\\
+\lan{Japanese}{Conversational} %\emoji{flag-japan}\\
+\lan{Hindi}{Fluent} %\emoji{flag-india}\\
+\lan{Tamil}{Conversational} %\emoji{flag-india}\\
 \section*{References}
-\begin{minipage}[c]{0.34\textwidth}
+\begin{minipage}[t]{0.34\textwidth}
 
-  Prof Ian Schmutte\\
+  \textbf{Prof Ian Schmutte}\\
   University of Georgia\\
   Amos Hall B420\\
   Athens, GA 30602 \\
   schmutte@uga.edu\\
   \url{http://ianschmutte.org}
 \end{minipage}
-\begin{minipage}[c]{0.33\textwidth}
+\begin{minipage}[t]{0.33\textwidth}
 
-  Prof Roozbeh Hosseini\\
+  \textbf{Prof Roozbeh Hosseini}\\
   University of Georgia\\
   Amos Hall B457\\
-  Athens GA 30602\\
+  Athens, GA 30602\\
   roozbeh@uga.edu\\
   \url{https://www.roozbeh-hosseini.com/}
 \end{minipage}
-\begin{minipage}[c]{0.33\textwidth}
+\begin{minipage}[t]{0.33\textwidth}
 
-  Prof Matt Knepper\\
+  \textbf{Prof Matt Knepper}\\
   Univeristy of Georgia\\
   Amos Hall B418\\
   Athens, GA 30602\\
