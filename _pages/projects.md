@@ -12,8 +12,7 @@ author_profile: true
   - Human capital investment decisions under idiosyncratic risk
   - Effects of university tuition hikes on human capital investment decisions: Evidence from the UK __with Jay Kang__
 
-
- <!-- ## Selected Peer-Reviewed Papers
+<!-- ## Selected Peer-Reviewed Papers
 
 {% for post in site.selected reversed %}
   {% include archive-single-research.html %}
