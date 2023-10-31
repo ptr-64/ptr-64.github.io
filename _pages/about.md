@@ -9,7 +9,9 @@ redirect_from:
 ---
 
 # Hi
-I am a grad student at the University of Georgia. Thanks for stopping by, as you can see this website is very much under construction.
+I am a grad student at the University of Georgia. Thank you for visiting my website. My research interest lies at the intersection of macroeconomics and labour. 
+
+I am on the 2023 job market.
 
 <!---
 

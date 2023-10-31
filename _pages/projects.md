@@ -1,9 +1,12 @@
 ---
 layout: archive
-title: "Publications"
-permalink: /research/
+title: "Projects"
+permalink: /projects/
 author_profile: true
 ---
+
+## Working papers
+[Effects of minimum wage on reservation wages](/files/research_projects/JMP_draft.pdf)
 
 ## Selected Peer-Reviewed Papers
 
