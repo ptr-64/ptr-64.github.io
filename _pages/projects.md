@@ -6,9 +6,14 @@ author_profile: true
 ---
 
 ## Working papers
-[Effects of minimum wage on reservation wages](/files/research_projects/JMP_draft.pdf)
+  - [Effects of minimum wage on reservation wages](/files/research_projects/JMP/JMP_draft.pdf)
+(JMP)
+  - [Effects of UI generosity on unemployment](/files/research_projects/SYP/fnl_drft.pdf)
+  - Human capital investment decisions under idiosyncratic risk
+  - Effects of university tuition hikes on human capital investment decisions: Evidence from the UK __with Jay Kang__
 
-## Selected Peer-Reviewed Papers
+
+ <!-- ## Selected Peer-Reviewed Papers
 
 {% for post in site.selected reversed %}
   {% include archive-single-research.html %}
@@ -20,7 +25,7 @@ author_profile: true
   {% include archive-single-research.html %}
 {% endfor %}
 
-<!-- ## Working Papers
+## Working Papers
 
 {% for post in site.workingpapers reversed %}
   {% include archive-single-research.html %}
