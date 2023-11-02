@@ -1,7 +1,7 @@
 ---
 title: "Teaching statement"
 date: 2023-10-31
-permalink: /teaching/teaching_statement/
+permalink: /teaching/2023/10/teaching_statement/
 ---
 
 My philosophy when it comes to teaching is rooted the belief that education is a transformative and empowering experience. I consider it a duty of mine to foster critical thinking, creativity, and a passion for the subject when I take on the role of an educator. Based on my own experience as a student I try to be sympathetic the myriad of challenges students face within and outside the classroom. Furthermore, I aim to create an inclusive and collaborative environment where students learn from the material and each other.
