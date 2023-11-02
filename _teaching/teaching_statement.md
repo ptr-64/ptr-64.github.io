@@ -2,8 +2,7 @@
 title: "Teaching statement"
 author: "Peter Iyer"
 date: "October 31, 2023"
-permalink: /files/statements/teaching_statement.md
-output: html_document
+permalink: /teaching/teaching_statement
 ---
 {::options parse_block_html="true" /}
 My philosophy when it comes to teaching is rooted the belief that education is a transformative and empowering experience. I consider it a duty of mine to foster critical thinking, creativity, and a passion for the subject when I take on the role of an educator. Based on my own experience as a student I try to be sympathetic the myriad of challenges students face within and outside the classroom. Furthermore, I aim to create an inclusive and collaborative environment where students learn from the material and each other.
