@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 # Teaching statement
-[](/files/statements/teaching_statement.md)
+[here](/files/statements/teaching_statement.md)
 {% include base_path %}
 
 
