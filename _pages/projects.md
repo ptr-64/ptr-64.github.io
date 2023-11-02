@@ -5,7 +5,6 @@ permalink: /projects/
 author_profile: true
 ---
 
-## Working papers
 [Effects of minimum wage on reservation wages](/files/research_projects/JMP/JMP_draft.pdf) (JMP)
 
 [Effects of UI generosity on unemployment](/files/research_projects/SYP/fnl_drft.pdf)
