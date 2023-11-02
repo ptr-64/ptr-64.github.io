@@ -1,4 +1,4 @@
--zRzrzR--
+---
 layout: archive
 title: "Projects"
 permalink: /projects/
