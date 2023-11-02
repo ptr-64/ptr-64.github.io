@@ -6,15 +6,17 @@ author_profile: true
 redirect_from:
   - /resume
 ---
-<iframe src="/files/cv/cv_iyer.pdf" width="100%" height="500" frameborder="no" border="0" marginwidth="0" marginheight="0"></iframe>
+<iframe src="/files/cv/cv_iyer.pdf" width="100%" height="1200" frameborder="no" border="0" marginwidth="0" marginheight="0"></iframe>
 
 Download a pdf copy [here](/files/cv/cv_iyer.pdf)
+
 <!--   
 redirect_from:
   - /files/cv/cv_iyer.pdf
   -->
 {% include base_path %}
 
+<!--
 Education
 ======
 * B.S. in GitHub, GitHub University, 2012
@@ -63,3 +65,4 @@ Teaching
 Service and leadership
 ======
 * Currently signed in to 43 different slack teams
+-->
