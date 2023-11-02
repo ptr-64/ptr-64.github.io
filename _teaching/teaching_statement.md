@@ -1,7 +1,7 @@
 ---
 title: "Teaching statement"
 author: "Peter Iyer"
-date: "October 31, 2023"
+date: "2023-10-31"
 permalink: /teaching/teaching_statement
 ---
 
