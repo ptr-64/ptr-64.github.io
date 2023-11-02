@@ -1,6 +1,5 @@
 ---
 title: "Teaching statement"
-date: 2023-10-31
 permalink: /teaching/2023/10/teaching_statement
 ---
 
