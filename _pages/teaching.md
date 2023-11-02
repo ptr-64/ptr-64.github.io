@@ -5,8 +5,7 @@ permalink: /teaching/
 author_profile: true
 ---
 
-# Teaching statement
-[here](/files/statements/teaching_statement.md)
+[Please find my teaching statement here](/files/statements/teaching_statement.md)
 {% include base_path %}
 
 
