@@ -8,6 +8,7 @@
 % Set the default font
 %\usepackage[sfdefault]{noto}
 \usepackage[T1]{fontenc} 
+\usepackage[]{xcolor} 
 \usepackage[]{geometry}
 \geometry{a4paper,
   left = 20mm,
@@ -18,9 +19,10 @@
 \pagestyle{empty}
 \usepackage[]{sectsty}
 \sectionfont{%
-  \large %
+  \LARGE %
+  \color{cyan}
   \fontfamily{cmr}\selectfont
-  \sectionrule{0pt}{0pt}{-5pt}{0.1pt}
+%  \sectionrule{0pt}{0pt}{-5pt}{0.1pt}
 }%
 %%%%%%%%%%
 %%MACROS%%
@@ -48,7 +50,7 @@
 
 %% motto
 \newcommand{\motto}[1]{
-  \large % font size
+  \normalsize % font size
 % print motto centered and slanted
   \begin{center}
     \textsl{#1}
@@ -93,14 +95,15 @@
 %% education entry
 \newcommand{\education}[4]{
 % name of the studies
-  \noindent  \textbf{#1}
+  \noindent\hangindent=2em\hangafter=0
+  \textbf{#1}
   % at the right the duration
     \hfill 
     \framebox{% duration inside a frame box
     \parbox{8em}{%
     \centering #2}} \par
  % new paragraph with the school in italics
-  \noindent {\small \textsc{#3} }\par
+  \noindent \hangindent=2em\hangafter=0{\small \textsc{#3} }\par
      % description with no hanging and in smaller text
      \vspace*{1.5em}
      \noindent\hangindent=2em\hangafter=0 \small #4 
@@ -112,14 +115,14 @@
 %% work experience
 \newcommand{\work}[4]{
 % name of the work
-  \noindent  \textbf{#1}
+  \noindent\hangindent=2em\hangafter=0  \textbf{#1}
 % at the right the duration
   \hfill 
 \framebox{% duration inside a frame box
   \parbox{8em}{%
   \centering#2}} \par
 % new paragraph with the school in italics
-  \noindent {\small \textsc{#3}} \par
+  \noindent\hangindent=2em\hangafter=0 {\small \textsc{#3}} \par
 % description with no hanging and in smaller text
   \vspace*{0.5em}
   \noindent\hangindent=2em\hangafter=0 \small #4 
@@ -130,7 +133,7 @@
 
 %% papers
 \newcommand{\paper}[3]{
-  \noindent \emph{#1} #2 \par
+  \noindent\hangindent=2em\hangafter=0 \emph{#1} #2 \par
   (#3)\\
 }
 
