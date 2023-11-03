@@ -61,15 +61,11 @@ The course has been designed to encourage your academic freedom and as such you 
 
 # Grading:
 
-| -----      | ---    |
 | Grade item | Weight |
 | -----      | ---    |
 | Homework   | 30%    |
-| -----      | ---    |
-| Midterm    | 30%
-| -----      | ---    |
-| Final      | 40%
-| -----      | ---    |
+| Midterm    | 30%    |
+| Final      | 40%    |
 
 # UGA Student Honor Code: 
 > "I will be academically honest in all of my academic work and will not tolerate academic dishonesty of others." A Culture of Honesty, the University’s policy and procedures for handling cases of suspected dishonesty, can be found at <www.uga.edu/ovpi.1>

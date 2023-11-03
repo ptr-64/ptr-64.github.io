@@ -20,6 +20,7 @@ Find a pdf copy of the syllabus [here](ECON2105F.pdf)
 
 Macroeconomics is the study of how choices made by people, firms, and governments affect the aggregate national and global economies. Macroeconomics topics include national income, unemployment, money, inflation, economic growth, business cycles, and monetary and fiscal policy.  This course enables students to understand and analyze many important contemporary macroeconomic policy debates.
 <!--more-->
+
 ### Office hours:
 
 0850-0950 on M, W, F
