@@ -1,0 +1,134 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{article}
+\usepackage{amsmath,amssymb}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+\hypersetup{
+  pdftitle={Research statements},
+  pdfauthor={Peter Iyer},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\title{Research statements}
+\author{Peter Iyer}
+\date{October 31, 2023}
+
+\begin{document}
+\maketitle
+
+My research seeks to advance our understanding of the intersection of
+macroeconomics and labour economics. In particular, I am interested in
+how labour market policies affect labour market outcomes. Aggregate
+productivity has been stagnant for a few decades
+now\footnote{https://press.princeton.edu/books/paperback/9780691175805/the-rise-and-fall-of-american-growth
+  and
+  https://www.brookings.edu/wp-content/uploads/2021/03/BPEASP21\_Gordon\_conf-draft.pdf}\footnote{https://www2.deloitte.com/us/en/insights/economy/behind-the-numbers/decoding-declining-stagnant-productivity-growth.html}\footnote{https://www.cairn.info/revue-de-l-ofce-2018-3-page-37.htm}\footnote{https://www.bls.gov/opub/mlr/2021/article/the-us-productivity-slowdown-the-economy-wide-and-industry-level-analysis.htm}.
+What role do labour market polices play in addressing this concern?
+Furthermore, how does the heterogeneous behavioral response to labour
+market policies at the micro-data level give rise to the macro economic
+outcomes we observe.
+
+\textbf{Labour market policies}: The labor market is witness to various
+kinds of imperfections that impede competitive outcomes. From search
+costs to monopsonies. One of the most far-reaching developments in
+labour economic research has been the use of quasi-experimental designs
+to evaluate policy outcomes and effectiveness.
+
+Minimum wages were first introduced in the US at the state level in late
+19th century at the state-level but would get struck down fairly
+quickly. The first federal minimum wage law was introduced in 1938, and
+since the 2000s the states have been the primary drivers of minimum wage
+policy. While the literature tends to focus on the demand effects of
+these policies, little work has been done to address the supply response
+to minimum wages. In \emph{Effects of minimum wages on reservation
+wages} I use quasi-experimental methods along with a little known, but
+nationally relevant data source to find minimum wage increases are
+associated with a rise in reservation wages. This increase rises with
+the increase in minimum wages and the response elasticity varies between
+0.44 to 0.82 in magnitude.
+
+In \emph{Effects of UI generosity on unemployment} I study the impact of
+the CARES act using Burning Glass data with an extended
+Diamond-Mortensen-Pissarides model (first developed in
+@gallant2020temporary). This model accounts for the heterogeneity among
+the unemployed on the basis of their attachment to their employers. This
+heterogeneity became pronounced during the 2020 pandemic recession which
+saw some workers get furloughed, and others laid-off or exit the labour
+force. Failure to account for this heterogeneity can been seen in the
+2020 Beveridge curve which is downward sloping and inelastic, unlike the
+Beveridge curve in most recessions, which is backwards bending. Using
+this model I compare the unemployment in states that terminated enhanced
+UI early with the states that didn't and I find that states that
+terminated the augmented UI early saw a rise in aggregate search effort.
+
+In a separate project with \href{https://www.hyunjaekang.com/}{Jay
+Kang}, I use panel data from the UK to study the effects of university
+tuition hikes on major choices by young Britons. In 2017, the 2010 UK
+Coalition government introduced policy changes to higher education
+funding that effectively tripled university tuition fees from £3000 to
+£9000 per year. The estimate of debt from the Institute of Fiscal
+Studies for students following this policy change is over £44000. Thus,
+we plan to study the effects of this policy shock on the human capital
+investment decisions made by young Britons.
+
+\textbf{Macroeconomic outcomes} Beyond the microeconomic realm, my
+research extends to the macroeconomic consequences of diverse labour
+market policies. I am interested in exploring how the aggregate effects
+of these policies resonate through the economy, affecting employment,
+and productivity.
+
+I am working on incorporating some of my previous findings to simulate
+policy experiments. I'd like to use a survival analysis model with a
+job-search model on my reservation wage data to study the effect of a
+\$15 minimum wage on unemployment spell duration in \emph{Spell duration
+response to minimum wage shocks}.
+
+The common theme underlining my work is a strong sense of empirical
+motivation. I combine dynamic modelling techniques and rich data, I aim
+to provide nuanced insights into the causal relationships between labour
+market polices, microeconomic responses, and macroeconomic outcomes.
+
+\end{document}
