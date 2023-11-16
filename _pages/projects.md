@@ -5,12 +5,15 @@ permalink: /projects/
 author_profile: true
 ---
 
+# Working papers
+
 [Effects of minimum wage on reservation wages](/files/research_projects/JMP/JMP_draft.pdf) (JMP)
 
 [Effects of UI generosity on unemployment](/files/research_projects/SYP/fnl_drft.pdf)
 
 Effects of university tuition hikes on human capital investment decisions: Evidence from the UK __with [Jay Kang](https://www.hyunjaekang.com/)__
 
+# Work in progress
 Spell duration response to minimum wage shocks
 
 Human capital investment decisions in the face of idiosyncratic shocks

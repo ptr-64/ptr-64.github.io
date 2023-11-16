@@ -1,75 +1,25 @@
-\documentclass[]{article}
-%\input{../../../../preamble.tex}
-\usepackage[english]{babel} % multilingual support
-\usepackage[utf8]{inputenc} % encoding
-%\usepackage{blindtext} % to insert blind text
-\usepackage[]{hyperref} 
-%\usepackage[]{emoji} 
-% Set the default font
-%\usepackage[sfdefault]{noto}
-\usepackage[T1]{fontenc} 
-\usepackage[]{xcolor} 
-\usepackage[]{geometry}
-\geometry{a4paper,
-  left = 20mm,
-  %right =
-  %bottom =
-  top = 15mm
-}%
-\pagestyle{empty}
-\usepackage[]{sectsty}
-\sectionfont{%
-  \LARGE %
-  \color{cyan}
-  \fontfamily{cmr}\selectfont
-%  \sectionrule{0pt}{0pt}{-5pt}{0.1pt}
-}%
-%%%%%%%%%%
-%%MACROS%%
-%%%%%%%%%%
-\newlength{\spacebox}
-\settowidth{\spacebox}{1234567890}
-%% vspace
-\newcommand{\sepspace}{\vspace*{1em}}
-\newcommand{\name}[1]{
-  \Huge
-  \begin{center}
-    \textbf{#1}
-  \end{center}
-  \par
-  \normalsize\normalfont
-}%
+% LaTeX Curriculum Vitae Template
+%
+% Copyright (C) 2004-2009 Jason Blevins <jrblevin@sdf.lonestar.org>
+% http://jblevins.org/projects/cv-template/
+%
+% You may use use this document as a template to create your own CV
+% and you may redistribute the source code freely. No attribution is
+% required in any resulting documents. I do ask that you please leave
+% this notice and the above URL in the source code if you choose to
+% redistribute this file.
 
-%% subname
-\newcommand{\subname}[1]{
-  \small
-  \begin{center}
-    \textbf{#1}
-  \end{center}
-}
+\documentclass[letterpaper]{article}
 
-%% motto
-\newcommand{\motto}[1]{
-  \normalsize % font size
-% print motto centered and slanted
-  \begin{center}
-    \textsl{#1}
-  \end{center}
-  \par
-% back to normal size and font
-  \normalsize \normalfont
-}%
+\usepackage{hyperref}
+\usepackage{geometry}
+\usepackage{graphicx}
 
-%% personal information
-\newcommand{\info}[2]{
-% set specific indentation for personal information
-  \noindent\hangindent=2em\hangafter=0
-% create a box to align two pieces of text
-  \parbox{\spacebox}{%
-  \textsl{#1}} % slanted entry name
-  #2
-  \par
-}% entry value
+% Comment the following lines to use the default Computer Modern font
+% instead of the Palatino font provided by the mathpazo package.
+% Remove the 'osf' bit if you don't like the old style figures.
+% \usepackage[T1]{fontenc}
+\usepackage[sc]{mathpazo}
 
 %% skill
 \newcommand{\skill}[2]{
@@ -91,90 +41,139 @@
         \textbf{#1}} % bold font entry name
      #2 \par
 }% entry value
+\newlength{\spacebox}
+\settowidth{\spacebox}{1234567890}
+%% vspace
+\newcommand{\sepspace}{\vspace*{1em}}
 
-%% education entry
-\newcommand{\education}[4]{
-% name of the studies
-  \noindent\hangindent=2em\hangafter=0
-  \textbf{#1}
-  % at the right the duration
-    \hfill 
-    \framebox{% duration inside a frame box
-    \parbox{8em}{%
-    \centering #2}} \par
- % new paragraph with the school in italics
-  \noindent \hangindent=2em\hangafter=0{\small \textsc{#3} }\par
-     % description with no hanging and in smaller text
-     \vspace*{1.5em}
-     \noindent\hangindent=2em\hangafter=0 \small #4 
-%back to normal size
-  \normalsize 
-  \par
-}%
 
-%% work experience
-\newcommand{\work}[4]{
-% name of the work
-  \noindent\hangindent=2em\hangafter=0  \textbf{#1}
-% at the right the duration
-  \hfill 
-\framebox{% duration inside a frame box
-  \parbox{8em}{%
-  \centering#2}} \par
-% new paragraph with the school in italics
-  \noindent\hangindent=2em\hangafter=0 {\small \textsc{#3}} \par
-% description with no hanging and in smaller text
-  \vspace*{0.5em}
-  \noindent\hangindent=2em\hangafter=0 \small #4 
-%back to normal size
-  \normalsize 
-  \par
+% Set your name here
+\def\name{Peter Iyer}
+
+% Replace this with a link to your CV if you like, or set it empty
+% (as in \def\footerlink{}) to remove the link in the footer:
+\def\footerlink{}
+
+% The following metadata will show up in the PDF properties
+\hypersetup{
+  colorlinks = true,
+  urlcolor = black,
+  pdfauthor = {\name},
+  pdfkeywords = {economics, labor economics, macroeconomics, applied econometrics},
+  pdftitle = {\name: Curriculum Vitae},
+  pdfsubject = {Curriculum Vitae},
+  pdfpagemode = UseNone
 }
 
-%% papers
-\newcommand{\paper}[3]{
-  \noindent\hangindent=2em\hangafter=0 \emph{#1} #2 \par
-  (#3)\\
+\geometry{
+  body={6.5in, 9in},
+  left=1.0in,
+  top=1.0in
+}
+
+% Customize page headers
+\pagestyle{myheadings}
+\markright{\name}
+\thispagestyle{empty}
+
+% Custom section fonts
+\usepackage{sectsty}
+\sectionfont{\rmfamily\mdseries\Large}
+\subsectionfont{\rmfamily\mdseries\itshape\large}
+
+% Other possible font commands include:
+% \ttfamily for teletype,
+% \sffamily for sans serif,
+% \bfseries for bold,
+% \scshape for small caps,
+% \normalsize, \large, \Large, \LARGE sizes.
+
+% Don't indent paragraphs.
+\setlength\parindent{0em}
+
+% Make lists without bullets
+\renewenvironment{itemize}{
+  \begin{list}{}{
+    \setlength{\leftmargin}{1.5em}
+  }
+}{
+  \end{list}
 }
 
 \begin{document}
-%name
-\name{Peter Iyer}
-\subname{Shankar Sarthak}
-\vspace*{-10pt}
-%\motto{A good quote proves nothing}
 
-%personal information
-\sepspace
-\info{Email}{\texttt{pir<at>uga<dot>edu}}
-\info{Phone}{(781)686-5860}
-\info{Address}{625 S Lumpkin St, Amos hall B450, Athens, GA, 30605, USA}
+% Place name at left
+%{\huge \name}
 
-% work
-\section*{Work experience}
+% Alternatively, print name centered and bold:
+\centerline{\huge \bf \name}
 
-\work{Phd Candidate}{Fall 2019 - Present}{University of Georgia}
-\sepspace
-\work{Instructor of record}{Summer 2022 - Fall 2022}{University of Georgia}
-\sepspace
-\work{Manuscript reviewer}{March 2022}{The Economic and Labour Relations Review}
-\sepspace
-\work{Market analyst}{August 2016 - August 2017}{Allsec Technologies}
-\sepspace
-\work{Library assistant}{May 2014 - April 2016}{Boston University Law Library}
+\vspace{0.25in}
 
-%education
+\begin{minipage}{0.45\linewidth}
+  \href{}{John Munro Godfrey Sr \\Department of Economics} \\
+  University of Georgia \\
+  Amos Hall B450 \\
+  Athens, GA 30602
+\end{minipage}
+\begin{minipage}{0.45\linewidth}
+  \begin{tabular}{ll}
+    Email:    & \href{mailto:pir@uga.edu}{\tt pir@uga.edu} \\
+    Homepage: & \href{https://ptr-64.github.io/}{\tt https://ptr-64.github.io}
+  \end{tabular}
+\end{minipage}
+
+
+\section*{Employment}
+\begin{itemize}
+    \item Phd Candidate, University of Georgia, 2022-present
+      \item Instructor of record, University of Georgia, Summer 2022-Fall 2022
+        \item Manusript reviewer, The economic and labour relations review, March 2022
+          \item Teaching assistant, University of Georgia, 2019-2024
+            \item Research assistant, University of Georgia, 2019-2024
+              \item Analyst, Allsec Technologies, August 2016-August 2017
+\end{itemize}
+
+%\section*{Other Affiliations}
+%\begin{itemize}
+%\end{itemize}
+
 \section*{Education}
-\education{Phd in Economics}{2019-2024 (Expected)}{University of Georgia}{}
-\education{Master's Degree in Economics}{2017 - 2019}{Stony Brook University}{}
-\education{Bachelor's Degree in Math and Economics}{2013 - 2016}{Boston University}{}
+
+\begin{itemize}
+  \item Ph.D.\ Economics, University of Georgia, 2024 (Expected).
+    % \begin{itemize}
+    	% \item \textit{Dissertation:}
+     %  	Essays on Networks and Labor Market Mobility.
+
+    	% \item \textit{Committee:}
+     %  	John M.\ Abowd (chair), Lawrence Blume,
+     %  	Jon Kleinberg, and Matthew Freedman.
+
+    % \end{itemize}
+
+	% \item M.Phil.\ Economics, University of Sydney, 2004.
+  % 	\begin{itemize}
+		% 	\item \textit{Honors:} Beta Gamma Sigma.
+		% \end{itemize}
+
+	% \item M.A.\ Economics, University of Missouri, St.\ Louis, 2003.
+
+	% \item B.A.\ Mathematics and Philosophy (dual major), Indiana University, 1997.
+		% \begin{itemize}
+		% 	\item \textit{Honors:} Phi Beta Kappa.
+		% \end{itemize}
+		
+\end{itemize}
 
 %papers
 \section*{Research}
-\paper{Effects of minimum wages on reservation wages}{}{JMP}
-\paper{Effects of UI generosity on unemployment}{}{Working paper}
-\paper{Human capital investment under idiosyncratic risk}{}{Working paper}
-\paper{Effects of university tuition hikes on human capital investment: Evidence from the UK}{with Jay Kang}{Working paper}
+\begin{itemize}
+  \item{Effects of minimum wages on reservation wages}{}{JMP}
+  \item{Effects of UI generosity on unemployment}{}{Working paper}
+  \item{Human capital investment under idiosyncratic risk}{}{Working paper}
+  \item{Effects of university tuition hikes on human capital investment: Evidence from the UK}{with Jay Kang}{Working paper}
+\end{itemize}
 
 % technical skills
 \section*{Technical skills}
@@ -219,4 +218,236 @@
   mknepper@uga.edu\\
   \url{https://sites.google.com/site/mattmknepper/home-1}
 \end{minipage}
+
+
+% Footer
+
+  \begin{footnotesize}
+    Last updated: \today \\
+    \url{\footerlink}  \\
+  \end{footnotesize}
+	% \includegraphics[width=5em]{website_QRcode}
+
 \end{document}
+%\documentclass[]{article}
+%%\input{../../../../preamble.tex}
+%\usepackage[english]{babel} % multilingual support
+%\usepackage[utf8]{inputenc} % encoding
+%%\usepackage{blindtext} % to insert blind text
+%\usepackage[]{hyperref} 
+%%\usepackage[]{emoji} 
+%% Set the default font
+%%\usepackage[sfdefault]{noto}
+%\usepackage[T1]{fontenc} 
+%\usepackage[]{xcolor} 
+%\usepackage[]{geometry}
+%\geometry{a4paper,
+%  left = 20mm,
+%  %right =
+%  %bottom =
+%  top = 15mm
+%}%
+%\pagestyle{empty}
+%\usepackage[]{sectsty}
+%\sectionfont{%
+%  \LARGE %
+%  \color{cyan}
+%  \fontfamily{cmr}\selectfont
+%%  \sectionrule{0pt}{0pt}{-5pt}{0.1pt}
+%}%
+%%%%%%%%%%%
+%%%MACROS%%
+%%%%%%%%%%%
+%\newlength{\spacebox}
+%\settowidth{\spacebox}{1234567890}
+%%% vspace
+%\newcommand{\sepspace}{\vspace*{1em}}
+%\newcommand{\name}[1]{
+%  \Huge
+%  \begin{center}
+%    \textbf{#1}
+%  \end{center}
+%  \par
+%  \normalsize\normalfont
+%}%
+%
+%%% subname
+%\newcommand{\subname}[1]{
+%  \small
+%  \begin{center}
+%    \textbf{#1}
+%  \end{center}
+%}
+%
+%%% motto
+%\newcommand{\motto}[1]{
+%  \normalsize % font size
+%% print motto centered and slanted
+%  \begin{center}
+%    \textsl{#1}
+%  \end{center}
+%  \par
+%% back to normal size and font
+%  \normalsize \normalfont
+%}%
+%
+%%% personal information
+%\newcommand{\info}[2]{
+%% set specific indentation for personal information
+%  \noindent\hangindent=2em\hangafter=0
+%% create a box to align two pieces of text
+%  \parbox{\spacebox}{%
+%  \textsl{#1}} % slanted entry name
+%  #2
+%  \par
+%}% entry value
+%
+%%% skill
+%\newcommand{\skill}[2]{
+%% set specific indentation for personal information
+%  \noindent\hangindent=2em\hangafter=0
+%% create a box to align two pieces of text
+%  \parbox{3\spacebox}{% three times larger box
+%  \textsc{#1}} % small caps entry name
+%  \hfill
+%  #2 \par
+%}% entry value
+%
+%%% language level
+%\newcommand{\lan}[2]{
+%    % set specific indentation for personal information
+%    \noindent\hangindent=2em\hangafter=0
+%    % create a box to align two pieces of text
+%    \parbox{\spacebox}{%
+%        \textbf{#1}} % bold font entry name
+%     #2 \par
+%}% entry value
+%
+%%% education entry
+%\newcommand{\education}[4]{
+%% name of the studies
+%  \noindent\hangindent=2em\hangafter=0
+%  \textbf{#1}
+%  % at the right the duration
+%    \hfill 
+%    \framebox{% duration inside a frame box
+%    \parbox{8em}{%
+%    \centering #2}} \par
+% % new paragraph with the school in italics
+%  \noindent \hangindent=2em\hangafter=0{\small \textsc{#3} }\par
+%     % description with no hanging and in smaller text
+%     \vspace*{1.5em}
+%     \noindent\hangindent=2em\hangafter=0 \small #4 
+%%back to normal size
+%  \normalsize 
+%  \par
+%}%
+%
+%%% work experience
+%\newcommand{\work}[4]{
+%% name of the work
+%  \noindent\hangindent=2em\hangafter=0  \textbf{#1}
+%% at the right the duration
+%  \hfill 
+%\framebox{% duration inside a frame box
+%  \parbox{8em}{%
+%  \centering#2}} \par
+%% new paragraph with the school in italics
+%  \noindent\hangindent=2em\hangafter=0 {\small \textsc{#3}} \par
+%% description with no hanging and in smaller text
+%  \vspace*{0.5em}
+%  \noindent\hangindent=2em\hangafter=0 \small #4 
+%%back to normal size
+%  \normalsize 
+%  \par
+%}
+%
+%%% papers
+%\newcommand{\paper}[3]{
+%  \noindent\hangindent=2em\hangafter=0 \emph{#1} #2 \par
+%  (#3)\\
+%}
+%
+%\begin{document}
+%%name
+%\name{Peter Iyer}
+%\subname{Shankar Sarthak}
+%\vspace*{-10pt}
+%%\motto{A good quote proves nothing}
+%
+%%personal information
+%\sepspace
+%\info{Email}{\texttt{pir<at>uga<dot>edu}}
+%\info{Phone}{(781)686-5860}
+%\info{Address}{625 S Lumpkin St, Amos hall B450, Athens, GA, 30605, USA}
+%
+%% work
+%\section*{Work experience}
+%
+%\work{Phd Candidate}{Fall 2019 - Present}{University of Georgia}
+%\sepspace
+%\work{Instructor of record}{Summer 2022 - Fall 2022}{University of Georgia}
+%\sepspace
+%\work{Manuscript reviewer}{March 2022}{The Economic and Labour Relations Review}
+%\sepspace
+%\work{Market analyst}{August 2016 - August 2017}{Allsec Technologies}
+%\sepspace
+%\work{Library assistant}{May 2014 - April 2016}{Boston University Law Library}
+%
+%%education
+%\section*{Education}
+%\education{Phd in Economics}{2019-2024 (Expected)}{University of Georgia}{}
+%\education{Master's Degree in Economics}{2017 - 2019}{Stony Brook University}{}
+%\education{Bachelor's Degree in Math and Economics}{2013 - 2016}{Boston University}{}
+%
+%%papers
+%\section*{Research}
+%\paper{Effects of minimum wages on reservation wages}{}{JMP}
+%\paper{Effects of UI generosity on unemployment}{}{Working paper}
+%\paper{Human capital investment under idiosyncratic risk}{}{Working paper}
+%\paper{Effects of university tuition hikes on human capital investment: Evidence from the UK}{with Jay Kang}{Working paper}
+%
+%% technical skills
+%\section*{Technical skills}
+%\skill{Programming languages}{\textsc{Python}, Julia, R, Matlab, Stata, Bash script, \LaTeX, \textsc{C++}, HTML}
+%\skill{Other}{Vim script, Markdown, Git, SAS }
+%\begin{itemize}
+%  \item I have significant experience in using \textsc{SLURM}
+%    \item I have extensively used Python, Stata, and R for data analysis, visualisation, and communication
+%\end{itemize}
+%
+%% talk dirty to me in these languages
+%\section*{Languages}
+%\lan{English}{Native} %\emoji{flag-united-kingdom}\\
+%\lan{Japanese}{Conversational} %\emoji{flag-japan}\\
+%\lan{Hindi}{Fluent} %\emoji{flag-india}\\
+%\lan{Tamil}{Conversational} %\emoji{flag-india}\\
+%\section*{References}
+%\begin{minipage}[t]{0.34\textwidth}
+%
+%  \textbf{Prof Ian Schmutte}\\
+%  University of Georgia\\
+%  Amos Hall B420\\
+%  Athens, GA 30602 \\
+%  schmutte@uga.edu\\
+%  \url{http://ianschmutte.org}
+%\end{minipage}
+%\begin{minipage}[t]{0.33\textwidth}
+%
+%  \textbf{Prof Roozbeh Hosseini}\\
+%  University of Georgia\\
+%  Amos Hall B457\\
+%  Athens, GA 30602\\
+%  roozbeh@uga.edu\\
+%  \url{https://www.roozbeh-hosseini.com/}
+%\end{minipage}
+%\begin{minipage}[t]{0.33\textwidth}
+%
+%  \textbf{Prof Matt Knepper}\\
+%  Univeristy of Georgia\\
+%  Amos Hall B418\\
+%  Athens, GA 30602\\
+%  mknepper@uga.edu\\
+%  \url{https://sites.google.com/site/mattmknepper/home-1}
+%\end{minipage}
+%\end{document}
