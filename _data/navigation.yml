@@ -3,6 +3,8 @@ main:
   #  - title: "Publications"
   #    url: /publications/
   #
+  - title: "Research"
+    url: /projects/
       #  - title: "Notes"
       #    url: /notes/
       #      #
@@ -18,8 +20,6 @@ main:
       #  - title: "Blog Posts"
       #    url: /year-archive/
       #    
-  - title: "Research"
-    url: /projects/
   - title: "CV"
     url: /cv/ #/cv/
       #  - title: "Guide"
