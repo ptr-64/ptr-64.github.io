@@ -1,7 +1,7 @@
 ---
 title: Course evaluations
 author: Peter Iyer
-date: "November 30, 2023"
+date: 2023-11-25
 ---
 
 ### Fall 2022
