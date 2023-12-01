@@ -19,30 +19,37 @@ redirect_from:
 <!--
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.A. in Math (Hons), Boston University, 2016
+* M.A. in Economics, Stony Brook University, 2019 -- Graduated with the Marty Weinbaum Outstanding Academic Achievement Award
+* Ph.D in Economics, University of Georgia, 2024 (expected)
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Fall 2019 -- Spring 2024: Research Assistant
+  * University of Georgia
+  * Duties included: cleaning up data, performing econometric analysis 
+  * Supervisor: Professor Roozbeh Hosseini (among others)
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Fall 2019 -- Spring 2024: Teaching Assistant
+  * University of Georgia
+  * Duties included: Cleaning up and updating teaching material, holding review sessions, grading homework and tests, lecturing 
+  * Supervisor: Professor Ian Schmutte
   
+* August 2016 -- July 2017: Analyst
+  * Allsec Tech
+  * Duties included: Compiled and analysed market data  and communicated my work to others 
+  * Supervisor: Nandesh Chandramouli
+
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Python
+* Julia
+* R
+  * Data cleaning/ compilation
+  * Visualization
+  * Structural modelling
+  * Reduced form analysis
+* HPC (Slurm)
 
 Publications
 ======
