@@ -7,7 +7,7 @@ author_profile: true
 
 # Working papers
 
-[Effects of minimum wage on reservation wages](/files/research_projects/JMP/JMP_draft.pdf) (JMP)
+**[Effects of minimum wage on reservation wages]**(/files/research_projects/JMP/JMP_draft.pdf) (JMP)
 
 > In this paper I use quasi-experimental methods to identify the effects of minimum wage increases on the reservation wages of the unemployed. Using state level variation in the minimum wage from late 2003 to late 2021, I find that for low wage workers, the increase in minimum wages is associated with a 5.1 to 7.5 percent increase in reservation wages. Competing income and substitution effects of minimum wage increases make theoretical predictions of reservation wages ambiguous. My paper addresses this concern empirically. These results suggest that reservation wages rise in response to minimum wage increases, and therefore affect the labour supply of unemployed workers.
 
