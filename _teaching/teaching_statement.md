@@ -52,13 +52,14 @@ In addition to the quantitative responses, students are given an opportunity to 
 
 ## Some comments:
 
-I thought it was a great, straightforward class. The teacher was great and very clear-no random changes or chaos. I love this class. I don’t think it needs to be improved.
+* I thought it was a great, straightforward class. The teacher was great and very clear-no random changes or chaos. I love this class. I don’t think it needs to be improved.
 
-The instructor, Shankar Sarthak, was perfect. He did an amazing job of connecting the material to the real world which helped me stay engaged and take a lot away from his class. He also had super in-depth explanations for the concepts which helped me understand them, he’s really good at explaining. He has great in-depth knowledge of the subject and its applications and came up with the perfect real life examples of stuff we were learning in class.
+* The instructor, Shankar Sarthak, was perfect. He did an amazing job of connecting the material to the real world which helped me stay engaged and take a lot away from his class. He also had super in-depth explanations for the concepts which helped me understand them, he’s really good at explaining. He has great in-depth knowledge of the subject and its applications and came up with the perfect real life examples of stuff we were learning in class.
 
-I really enjoyed the class and how it was taught. The instructor was very straight- forward and made the course very clear and easy to follow. The instructor made the exams very similar to problems discussed in the lecture and the problems given in the homework. Overall the class was taught well and I would take the course again.
+* I really enjoyed the class and how it was taught. The instructor was very straight- forward and made the course very clear and easy to follow. The instructor made the exams very similar to problems discussed in the lecture and the problems given in the homework. Overall the class was taught well and I would take the course again.
 
-This class was structured exceedingly well and was extremely cohesive to my learning style.
+* This class was structured exceedingly well and was extremely cohesive to my learning style.
+
 <!--
 My philosophy when it comes to teaching is rooted the belief that education is a transformative and empowering experience. I consider it a duty of mine to foster critical thinking, creativity, and a passion for the subject when I take on the role of an educator. Based on my own experience as a student I try to be sympathetic the myriad of challenges students face within and outside the classroom. Furthermore, I aim to create an inclusive and collaborative environment where students learn from the material and each other.
 
