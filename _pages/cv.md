@@ -6,9 +6,11 @@ author_profile: true
 redirect_from:
   - /resume
 ---
+Download a pdf copy [here](/files/cv/cv_iyer.pdf)
+
+
 <iframe src="/files/cv/cv_iyer.pdf" width="100%" height="600" frameborder="no" border="0" marginwidth="0" marginheight="0"></iframe>
 
-Download a pdf copy [here](/files/cv/cv_iyer.pdf)
 
 <!--   
 redirect_from:
@@ -16,7 +18,6 @@ redirect_from:
   -->
 {% include base_path %}
 
-<!--
 Education
 ======
 * B.A. in Math (Hons), Boston University, 2016
@@ -49,8 +50,14 @@ Skills
   * Visualization
   * Structural modelling
   * Reduced form analysis
+* Stata
+* Matlab
+* Bash scripting
+* SAS
 * HPC (Slurm)
 
+
+<!--
 Publications
 ======
   <ul>{% for post in site.publications %}
