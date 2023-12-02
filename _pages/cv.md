@@ -59,6 +59,8 @@ Skills
   * Visualization
   * Structural modelling
   * Reduced form analysis
+  * Working with big data
+  * Forecasting
 
 
 <!--
