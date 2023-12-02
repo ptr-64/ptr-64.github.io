@@ -27,7 +27,7 @@ __Labour supply response to minimum wage shocks__
 
 __Human capital investment decisions in the face of idiosyncratic shocks__
 
-> I compute an overlapping generations model to study human capital investment decisions in an environment with uninsurable economic risk. In the model, households transfer wealth from one generation to the next, and invest in their children's human capital. Each generation allocates resources towards savings, own human capital, and children's human capital. Even if all households begin with the same level of wealth, a one-time shock introduces persistent wealth and human capital inequality. Low-wealth households struggle to invest in their children and as a result wealth inequality between the haves and have-nots rises over time. 
+> I compute an overlapping generations model to study human capital investment decisions in an environment with uninsurable economic risk. In the model, households transfer wealth from one generation to the next, and invest in their children's human capital. Each generation allocates resources towards savings and children's human capital optimally. Even if all households begin with the same level of wealth, a one-time shock introduces persistent wealth and human capital inequality. Low-wealth households struggle to invest in their children and as a result inequality between the haves and have-nots widens over time. 
 
 <!--
 ## Selected Peer-Reviewed Papers
