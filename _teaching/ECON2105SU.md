@@ -16,7 +16,7 @@ excerpt_separator: <!--more-->
 
 ## Principles of Macroeconomics ECON2105 Summer 2022 (CRN: 66581) Course Introduction
 
-Find a pdf copy of the syllabus [here](files/syllabi/ECON2105SU.pdf)
+Find a pdf copy of the syllabus [here](/files/syllabi/ECON2105SU.pdf)
 
 Macroeconomics is the study of how choices made by people, firms, and governments affect the aggregate national and global economies. Macroeconomics topics include national income, unemployment, money, inflation, economic growth, business cycles, and monetary and fiscal policy.  This course enables students to understand and analyze many important contemporary macroeconomic policy debates.
 <!--more-->
