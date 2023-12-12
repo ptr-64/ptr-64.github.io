@@ -9,7 +9,7 @@ redirect_from:
 Download a pdf copy [here](/files/cv/cv_iyer.pdf)
 
 
-<iframe src="/files/cv/cv_iyer.pdf" width="100%" height="600" frameborder="no" border="0" marginwidth="0" marginheight="0"></iframe>
+<iframe src="/files/cv/cv_iyer.pdf" width="100%" height="900" frameborder="no" border="0" marginwidth="0" marginheight="0"></iframe>
 
 
 <!--
