@@ -53,6 +53,7 @@ Skills
 * Matlab
 * Bash scripting
 * SAS
+* Docker
 * HPC (Slurm)
 * I have significant experience in:
   * Data cleaning/ compilation
