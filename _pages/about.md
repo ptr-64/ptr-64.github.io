@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 # Hi
-I am a grad student at the University of Georgia. Thank you for visiting my website. My research interest lies at the intersection of macroeconomics and labour. 
+I am a grad student at the University of Georgia. Thank you for visiting my website. My research interest lies at the intersection of labor and applied microeconomics, with secondary interest in macroeconomics. 
 
 I am on the 2023 job market.
 
