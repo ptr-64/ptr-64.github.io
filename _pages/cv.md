@@ -52,7 +52,9 @@ Skills
 * Stata
 * Matlab
 * Bash scripting
+* Unix
 * SAS
+* SQL
 * Docker
 * HPC (Slurm)
 * I have significant experience in:
