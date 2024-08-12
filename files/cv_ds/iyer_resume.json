@@ -1,0 +1,162 @@
+{
+  "selectedTemplate": 1,
+  "headings": {
+    "work": "Experience",
+    "education": "Education",
+    "skills": "",
+    "projects": "Projects/ papers",
+    "awards": "Awards and Honors"
+  },
+  "basics": {
+    "name": "Peter Iyer",
+    "email": "ptryr.64@gmail.com",
+    "phone": "(781)686-5860",
+    "location": {
+      "address": "Athens, GA"
+    },
+    "website": "https://ptr-64.github.io/"
+  },
+  "education": [
+    {
+      "institution": "University of Georgia",
+      "location": "Athens, GA",
+      "area": "Economics",
+      "studyType": "PhD",
+      "startDate": "July 2019",
+      "endDate": "July 2024",
+      "gpa": "3.55"
+    },
+    {
+      "institution": "Stonybrook University",
+      "location": "Stonybrook, NY",
+      "studyType": "MA",
+      "area": "Economics",
+      "gpa": "3.85",
+      "startDate": "August 2017",
+      "endDate": "May 2019"
+    },
+    {
+      "institution": "Boston University",
+      "location": "Boston, MA",
+      "studyType": "BA",
+      "area": "Economics, and Math",
+      "gpa": "3.78",
+      "startDate": "August 2013",
+      "endDate": "May 2016"
+    }
+  ],
+  "work": [
+    {
+      "company": "University of Georgia",
+      "location": "Athens, GA",
+      "position": "Research Assistant",
+      "website": "",
+      "endDate": "May 2020",
+      "highlights": [
+        "Wrote programs to query APIs (e.g. World Bank's World Development Indicators) and collect and save data for local processing ",
+        "Wrote a program to periodically update over 100 graphs, choropleth maps, and slides with new data from API queries automatically",
+        "Documented code by adding comments and docstrings, flaggged outdated code, added features to enhance functionality of previously written code, organized input and output files by name and date, updated pointers and references throughout project files",
+        "Translated projects with over 10k lines of code from one language to another (e.g. from Python to R and Stata)",
+        "Collected and cleaned over 2 decades of census data with dozens of variables",
+        "Wrote reports and updated a task management system to ensure timely delivery of results ",
+        "Cleaned, processed and analyzed large-scale datasets with over 10 million observations and 10,000 variables, ensuring data integrity and accuracy.",
+        "    Developed and implemented programs to estimate target parameters using five different estimators in a High-Performance Computing (HPC) environment."
+      ],
+      "startDate": "August 2019"
+    },
+    {
+      "highlights": [
+        "Assisted in the preparation of lecture notes by writing summaries of paper, ",
+        "Produced histograms to help visualize student performance across tests, assignments, and quizzes",
+        "Graded and returned tests, quizzes, and homeworks (almost always) within 2 days ",
+        "Held office hours to discuss student queries",
+        "Held lectures and remedial classes with over 30 students",
+        "Helped compile lecture notes for distribution using programs like R/Sweve and LaTeX",
+        "Wrote web-scrapers to compile 1000+ data points for in-class use"
+      ],
+      "company": "University of Georgia",
+      "position": "Teaching Assistant",
+      "location": "Athens, GA",
+      "startDate": "August 2020",
+      "endDate": "July 2024"
+    },
+    {
+      "highlights": [
+        "Collected novel survey data for analysis (e.g. by establishing connections with the Bureau of Labor Statistics)",
+        "Processed data for experimental research design (e.g. Diff-in-diff, )",
+        "Employed variable selection methods (e.g., Lasso, Ridge, Stepwise Regression) to identify the most relevant variables out of a dataset with over 1000 variables, improving model accuracy and interpretability.",
+        "Combined disparate data sets to produce choropleth maps, animations, tables, and time serires plots",
+        "Designed and conducted causal inference techniques to uncover the impact of various policies (e.g. my work shows a 1% increase in minimum wages leads to a 0.44% increase in reservation wages)",
+        "Presented findings through detailed reports and visualizations to inform decision-making and policy development.",
+        "Utilized statistical software (e.g., R, Stata) to conduct rigorous econometric analyses and derive actionable insights.",
+        "Conducted replication studies by deploying national economic models at the state level, ensuring methodological consistency and accuracy across different scales."
+      ],
+      "company": "University of Georiga",
+      "position": "Phd Candidate",
+      "location": "Athens, GA",
+      "startDate": "April 2023",
+      "endDate": "July 2024"
+    },
+    {
+      "highlights": [
+        "Assist with publicity and outreach via social networking services (e.g. LinkedIn)",
+        "Compiled market research by scraping online resources into Excel data for marketing teams",
+        "Compiled and presented reports for disseminating actionable insights"
+      ],
+      "company": "Allsec Technologies",
+      "position": "Analyst",
+      "location": "Irving, TX",
+      "startDate": "August 2016",
+      "endDate": "August 2017"
+    }
+  ],
+  "skills": [
+    {
+      "name": "",
+      "level": "",
+      "keywords": [
+        ""
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Effects of minimum wage reform on reservation wages",
+      "keywords": [
+        "R, Python, Latex, SLURM, Excel"
+      ],
+      "description": "Used quasi experimental designs (stacked event study designs, triple diff designs, etc) to show a 1% increase in minimumw wages lead to a 0.44-0.57% increase in reservation wages (the lowest wages a worker will accept)",
+      "url": "https://ptr-64.github.io/files/research_projects/JMP/JMP_draft.pdf"
+    },
+    {
+      "keywords": [
+        "R, Stata, Latex, Sweve"
+      ],
+      "name": "Effects of unemployment insurance generosity on unemployment",
+      "description": "Replication of Gallant et. al 2020, in which I translated their Stata code into R, implemented their model at the state level, and showed that terminating enhanced unemployment insurance early led to a 5% fall in unemployment",
+      "url": "https://ptr-64.github.io/files/research_projects/SYP/fnl_drft.pdf"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Marty Weinbaum Outstanding Academic Achievement Award",
+      "awarder": "Stonybrook University",
+      "date": "May 2019",
+      "summary": "Given to a student with the highest overall GPA"
+    },
+    {
+      "title": "Alvin B Biscoe Memorial Scholarship",
+      "date": "May 2023",
+      "awarder": "University of Georgia"
+    }
+  ],
+  "sections": [
+    "templates",
+    "profile",
+    "education",
+    "work",
+    "skills",
+    "projects",
+    "awards"
+  ]
+}

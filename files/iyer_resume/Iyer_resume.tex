@@ -1,0 +1,170 @@
+\documentclass[a4paper]{article}
+    \usepackage{fullpage}
+    \usepackage{amsmath}
+    \usepackage{amssymb}
+    \usepackage{textcomp}
+    \usepackage[utf8]{inputenc}
+    \usepackage[T1]{fontenc}
+    \usepackage[]{hyperref} 
+    \usepackage[]{fontawesome} 
+    \textheight=10in
+    \pagestyle{empty}
+    \raggedright
+    \usepackage[left=0.8in,right=0.8in,bottom=0.8in,top=0.8in]{geometry}
+
+    %\renewcommand{\encodingdefault}{cg}
+%\renewcommand{\rmdefault}{lgrcmr}
+
+\def\bull{\vrule height 0.8ex width .7ex depth -.1ex }
+
+% DEFINITIONS FOR RESUME %%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\area} [2] {
+    \vspace*{-9pt}
+    \begin{verse}
+        \textbf{#1}   #2
+    \end{verse}
+}
+
+\newcommand{\lineunder} {
+    \vspace*{-8pt} \\
+    \hspace*{-18pt} \hrulefill \\
+}
+
+\newcommand{\header} [1] {
+    {\hspace*{-18pt}\vspace*{6pt} \textsc{#1}}
+    \vspace*{-6pt} \lineunder
+}
+
+\newcommand{\employer} [3] {
+    { \textbf{#1} (#2)\\ \underline{\textbf{\emph{#3}}}\\  }
+}
+
+\newcommand{\contact} [3] {
+    \vspace*{-10pt}
+    \begin{center}
+        {\Huge \scshape {#1}}\\
+        #2 \\ #3
+    \end{center}
+    \vspace*{-8pt}
+}
+
+\newenvironment{achievements}{
+    \begin{list}
+        {$\bullet$}{\topsep 0pt \itemsep -2pt}}{\vspace*{4pt}
+    \end{list}
+}
+
+\newcommand{\schoolwithcourses} [4] {
+    \textbf{#1} #2 $\bullet$ #3\\
+    #4 \\
+    \vspace*{5pt}
+}
+
+\newcommand{\school} [4] {
+    \textbf{#1} #2 $\bullet$ #3\\
+    #4 \\
+}
+% END RESUME DEFINITIONS %%%%%%%%%%%%%%%%%%%%%%%
+
+    \begin{document}
+\vspace*{-40pt}
+
+    
+
+%==== Profile ====%
+\vspace*{-10pt}
+\begin{center}
+	{\Huge \scshape {Peter Iyer}}\\
+  %{\tiny \scshape {(Shankar Sarthak)}}\\
+{\faMapMarker} Athens, GA $\cdot$ \href{mailto:ptryr.64@gmail.com}{{\faEnvelopeO} Email} $\cdot$ {\faPhone} (781)686--5860 $\cdot$ \href{https://ptr-64.github.io/}{{\faGlobe} Website} $\cdot$ \href{https://www.linkedin.com/in/peter-i-a024372b8/}{{\faLinkedinSquare} Linkedin}\\
+\end{center}
+
+%==== Experience ====%
+\header{Experience}
+\vspace{1mm}
+
+\textbf{University of Georgia} \hfill Athens, GA\\
+\textit{Phd Candidate} \hfill April 2023 | July 2024\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+	\item Employed machine learning methods (e.g., Lasso, Ridge, etc) to identify the most relevant variables out of a dataset with over 1000 variables and 23 million observations%, improving model accuracy and interpretability
+	\item Deployed causal inference experiments (e.g. Diff-in-Diff) to uncover the impact of state-level policies (my work shows a 1\% increase in minimum wages leads to a 0.44\% increase in reservation wages)
+	\item Compiled novel survey data on unemployment insurance recipients by establishing connections with the Bureau of Labor Statistics
+	\item Processed 500k+ observations for experimental research design (e.g. combined multiple data sources, grouped and filtered observations, etc for Triple-diff designs, event studies, among others) in an HPC environment
+	%\item Combined disparate data sets to produce choropleth maps, animations, tables, and time series plots
+	\item Presented findings through academic articles, presentations, and visualizations (graphs, choropleth maps, etc) to inform decision-making and policy development at professional conferences
+	%\item Utilized statistical software (e.g., R, Stata, etc) to conduct rigorous econometric analyses and derive actionable insights
+	\item Conducted replication analysis by deploying national economic models at the state level, uncovered model sensitivity to share of workforce on furlough; also translated 20k+ lines of Stata code into R
+      \item Wrote structural and reduced-form models to simulate/predict market conditions (e.g. cryptocurrency pricing, labor markets, etc)
+\end{itemize}
+\textbf{University of Georgia} \hfill Athens, GA\\
+\textit{Research Assistant} \hfill August 2019 | May 2020\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+	%\item Cleaned, processed and analyzed large-scale datasets with over 10 million observations and 1000 variables, ensuring data integrity and accuracy of results
+	\item Developed and implemented programs to estimate target parameters using five different estimators in a High-Performance Computing (HPC) environment, using data with over 10 million observations and 1000 variables
+	\item Translated multiple projects with over 10,000 lines of code from one language to another (e.g.\ from Python to R and Stata)
+	%\item Wrote programs to query APIs (e.g. World Bank\textquotesingle{}s World Development Indicators) and collect and save data for local processing
+	\item Wrote programs to automatically update over 100 graphs, choropleth maps, and presentation slides with new data from API queries periodically
+      %\item Documented code with comments and docstrings, flagged outdated code, added features, organized files, and updated references for multiple projects with cross-functional teams
+	\item Collected, cleaned and, analyzed over 20 years of Census data with dozens of variables
+      \item Collaborated with cross-functional teams to integrate data analysis into broader strategic initiatives with versioning services like Git/Mercurial
+        \item Refereed journal submissions for The Economic and Labour Relations Review
+\end{itemize}
+\textbf{University of Georgia} \hfill Athens, GA\\
+\textit{Teaching Assistant} \hfill August 2020 | July 2024\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+	\item Wrote web-scrapers to compile 1000+ data points for in-class presentations 
+	\item Helped compile 200+ lecture notes for distribution using programs like R/Sweve and LaTeX
+	\item Assisted in the preparation of lecture notes by writing summaries of 30+ research papers
+	\item Produced histograms to help communicate class performance across tests, assignments, and quizzes
+	\item Graded and returned tests, quizzes, and assignments within 2 days for multiple classes with 30+ students
+	%\item Held office hours to discuss student queries
+	\item Held lectures and remedial classes with over 30 students
+\end{itemize}
+\textbf{Allsec Technologies} \hfill Irving, TX\\
+\textit{Analyst} \hfill August 2016 | August 2017\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+	\item Assist with publicity and outreach via social networking services (e.g. LinkedIn), and helped develop 100+ connections
+	\item Compiled market research by scraping online resources into Excel data for marketing teams
+	\item Compiled and presented reports for disseminating actionable insights
+\end{itemize}
+
+%==== Education ====%
+\header{Education}
+\textbf{University of Georgia}\hfill Athens, GA\\
+PhD Economics %\textit{GPA: 3.55} 
+\hfill July 2019 | July 2024\\
+\vspace{2mm}
+\textbf{Stony Brook University}\hfill Stony Brook, NY\\
+MA Economics %\textit{GPA: 3.85} 
+\hfill August 2017 | May 2019\\
+\vspace{2mm}
+\textbf{Boston University}\hfill Boston, MA\\
+BA Economics, and Math %\textit{GPA: 3.78} 
+\hfill August 2013 | May 2016\\
+\vspace{2mm}
+
+\header{Selected Projects/ papers}
+{\href{https://ptr-64.github.io/files/research\_projects/JMP/JMP\_draft.pdf}{\textbf{Effects of minimum wage reform on reservation wages}}} {\sl R, Python, Latex, SLURM, Excel} \hfill \\
+Used quasi experimental designs (stacked event study designs, triple diff designs, etc) to show a 1\% increase in minimum wages lead to a 0.44-0.57\% increase in reservation wages (the lowest wages a worker will accept). These results reflect broader market conditions, with tighter labor markets and larger minimum wage increases associated with stronger reservation wage responses.\\ \vspace*{1mm} Accepted for presentation at the Midwest Economics Association 2024 conference, and the Western Economic Association International 99th Annual conference. \\
+\vspace*{2mm}
+{\href{https://ptr-64.github.io/files/research\_projects/SYP/fnl\_drft.pdf}{\textbf{Effects of unemployment insurance generosity on unemployment}}} {\sl R, Stata, Latex, Sweve} \hfill \\
+Replication of Gallant et. al 2020, in which I translated their Stata code into R, implemented their DMP model at the state level, and showed that terminating enhanced unemployment insurance early led to a 5\% fall in unemployment. Also found model predictions were sensitive to the share of workforce in furlough.\\
+\vspace*{2mm}
+
+\header{Awards and Honors}
+\textbf{Marty Weinbaum Outstanding Academic Achievement Award} \hfill Stony Brook University\\
+Given to a student with the highest overall GPA \hfill May 2019\\
+\vspace*{2mm}
+\textbf{Alvin B Biscoe Memorial Scholarship} \hfill University of Georgia\\
+\hfill May 2023\\
+\vspace*{2mm}
+
+\header{References}
+Available upon request
+
+\end{document}
