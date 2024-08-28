@@ -2,7 +2,8 @@
 title: Principles of Macroeconomics Fall 2022 (ECON2105) Syllabus
 date: 2022-08-15
 author: Peter Iyer
-#permalink: /teaching/2022/08/ECON2105F
+permalink: /teaching/2022/08/ECON2105F
+location: Athens, GA, USA
 excerpt_separator: <!--more-->
 ---
 
