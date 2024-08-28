@@ -4,7 +4,7 @@ collection: teaching
 type: "Undergraduate course"
 date: 2022-08-15
 author: Peter Iyer
-permalink: /teaching/2022Fl/ECON2105F
+permalink: /teaching/ECON2105F
 venue: "University of Georgia, Terry College of Business, Dept of Economics"
 location: "Athens, GA, USA"
 excerpt_separator: <!--more-->
