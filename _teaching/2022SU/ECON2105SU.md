@@ -2,7 +2,11 @@
 title: Principles of Macroeconomics Summer 2022 (ECON2105) Syllabus
 date: 2022-07-01
 author: Peter Iyer
-#permalink: /teaching/2022/07/ECON2105SU2022/
+colection: teaching
+type: "Undergraduate course"
+venue: "University of Georgia, Terry College of Business, <br> Dept of Economics"
+permalink: /teaching/2022SU/ECON2105SU
+location: "Athens, GA, USA"
 excerpt_separator: <!--more-->
 ---
 

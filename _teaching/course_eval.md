@@ -2,6 +2,7 @@
 title: Course evaluations
 author: Peter Iyer
 date: 2023-11-25
+type: "Teaching evaluations summarized"
 ---
 
 ### Fall 2022
