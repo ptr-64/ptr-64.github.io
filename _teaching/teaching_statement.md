@@ -25,8 +25,8 @@ At the conclusion of each semester, students are encouraged to submit evaluation
  - “Overall, the instructor was effective at teaching the subject matter ?” 
  - “The instructor was well prepared for class ? ”
  - “The instructor stimulated student interest in the course material?”
-The table below summarizes student responses to these questions for the courses I
-tor of record in. Average scores on a scale of 1 to 5 are presented for each course.
+
+The table below summarizes student responses to these questions for the courses I served as the instructor of record in. Average scores on a scale of 1 to 5 are presented for each course, with higher scores indicating more positive responses.
 
 ### Fall 2022
 
