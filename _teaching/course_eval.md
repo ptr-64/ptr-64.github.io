@@ -2,7 +2,7 @@
 title: Course evaluations
 author: Peter Iyer
 date: 2023-11-25
-type: "Teaching evaluation scores out of 5. Higher figure indicates more positive response"
+type: "Teaching evaluation scores out of 5. Higher score indicates a more positive response"
 venue: "Athens, GA, USA"
 ---
 
