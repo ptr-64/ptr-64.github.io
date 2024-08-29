@@ -17,6 +17,8 @@ I don’t just consider tests to be a measure of knowledge but a tool to learnin
 
 I am dedicated to continuous development to stay informed about pedagogical methods, emerging technologies, and advancements in my field. This commitment allows me to bring the most up-to-date knowledge to the classroom, and ensuring my students are at the cutting edge of the subject. My teaching philosophy is centered on empowering students to become critical thinkers, lifelong learners, and responsible contributors to society. I am passionate about creating an inclusive and engaging learning environment that prepares students for academic and professional success.
 
+___
+
 ## Summary of Quantitative Evaluations for Courses as instructor of record
 
 At the conclusion of each semester, students are encouraged to submit evaluations for their enrolled courses. Each student can rate instructors on a scale of 1 to 5 (with 5 being the highest) for the following questions:
@@ -30,11 +32,11 @@ tor of record in. Average scores on a scale of 1 to 5 are presented for each cou
 
 | |Avg | SD|
 |--|--:|--:|
-|The course will be (or has been) of value to me                      |  3.74286 |  1.24482|
-| I learned a lot in this course                                      |  3.74286 |  1.22097|
-| The course challenged me to think and learn                         |  3.85714 |  1.11521|
-| I would take another course with this instructor if I had the chance|  3.37143 |  1.57341|
-|Number of evaluations                                                | 35       |          |
+|The course will be (or has been) of value to me                      |  3.74 |  1.24|
+| I learned a lot in this course                                      |  3.74 |  1.22|
+| The course challenged me to think and learn                         |  3.85 |  1.11|
+| I would take another course with this instructor if I had the chance|  3.37 |  1.57|
+|**Number of evaluations**                                                | **35**    |       |
 
 ## Summary of Qualitative Responses for Courses as instructor of record
 In addition to the quantitative responses, students are given an opportunity to qualitative responses. For Summer and Fall of 2022, students wrote:
@@ -46,11 +48,11 @@ In addition to the quantitative responses, students are given an opportunity to 
 
 | |Avg | SD|
 |--|--:|--:|
-|The course will be (or has been) of value to me                     | 3.85000 |   0.93330|
-|I learned a lot in this course                                      | 3.75000 |   0.91047|
-|The course challenged me to think and learn                         | 4.05000 |   0.88704|
-|I would take another course with this instructor if I had the chance| 3.65000 |   1.49649|
-|Number of evaluations                                               | 20      |          |
+|The course will be (or has been) of value to me                     | 3.85 |   0.93|
+|I learned a lot in this course                                      | 3.75 |   0.91|
+|The course challenged me to think and learn                         | 4.05 |   0.88|
+|I would take another course with this instructor if I had the chance| 3.65 |   1.49|
+|**Number of evaluations**                                               | **20**   |       |
 
 ## Some comments:
 

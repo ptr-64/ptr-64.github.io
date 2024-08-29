@@ -15,4 +15,3 @@ You can also find a summary of my teaching evaluations, and teaching philosophy 
   {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
   {% include archive-single.html %}
 {% endfor %}
-
