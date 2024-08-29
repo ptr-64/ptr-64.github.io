@@ -2,7 +2,8 @@
 title: "Teaching statement"
 date: 2023-10-31
 permalink: /teaching/2023/10/teaching_statement
-venue: "Athens, GA"
+type: "Teaching philosophy, and some feedback from previous students"
+venue: "Athens, GA, USA"
 ---
 
 
