@@ -8,12 +8,8 @@ redirect_from:
 ---
 Download a pdf copy [here](/files/cv/cv_iyer.pdf)
 
-<table border="0">
-  <tr>
   <iframe src="/files/cv/cv_iyer.pdf" width="100%" height="900" frameborder="no" border="0" marginwidth="0" marginheight="0"></iframe>
-  <\tr>
   
-  <tr>
   <!--
   redirect_from:
     - /files/cv/cv_iyer.pdf
@@ -90,11 +86,3 @@ Download a pdf copy [here](/files/cv/cv_iyer.pdf)
   ======
   * Currently signed in to 43 different slack teams
   -->
-  
-  
-  
-  
-  
-  </tr>
-  </table>
-  
