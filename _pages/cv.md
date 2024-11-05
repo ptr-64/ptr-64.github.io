@@ -13,13 +13,13 @@ Download a pdf copy [here](/files/cv/cv_iyer.pdf)
   <iframe src="/files/cv/cv_iyer.pdf" width="100%" height="900" frameborder="no" border="0" marginwidth="0" marginheight="0"></iframe>
   <\tr>
   
+  <tr>
   <!--
   redirect_from:
     - /files/cv/cv_iyer.pdf
     -->
   {% include base_path %}
   
-  <tr>
   A short summary:
   
   Education
